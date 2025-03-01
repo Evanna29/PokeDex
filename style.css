@@ -1,0 +1,117 @@
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Bangers-Regular";
+  src: url(./assets/fonts/Bangers-Regular.ttf);
+}
+
+body {
+  font-family: "Bangers-Regular", sans-serif;
+  letter-spacing: 3px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 150px;
+  background-color: rgb(30, 30, 87);
+  display: flex;
+  justify-content: center;
+}
+.header-content {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  color: rgb(154, 131, 63);
+}
+
+header img {
+  width: 150px;
+  height: auto;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  background-color: rgb(49, 178, 182);
+}
+
+.main-content {
+  margin: 40px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.poke-card {
+  height: 260px;
+  width: 250px;
+  background-color: rgb(21, 21, 155);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  border-radius: 1rem;
+}
+
+.poke-card-header {
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blanchedalmond;
+  gap: 20px;
+  height: 50px;
+  background-color: rgb(23, 28, 105);
+  width: 100%;
+  border-radius:calc(1rem - 5px) calc(1rem - 5px) 0 0;
+}
+
+.poke-img {
+  width: 140px;
+  height: auto;
+}
+
+.poke-card-footer {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  height: 50px;
+  background-color: rgb(23, 28, 105);
+  width: 100%;
+  border-radius: 0 0 calc(1rem - 5px) calc(1rem - 5px);
+}
+
+footer {
+  height: 150px;
+  background-color: rgb(30, 30, 87);
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content {
+  width: 80%;
+  color: rgb(154, 131, 63);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 30px;
+}
